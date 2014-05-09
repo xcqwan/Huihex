@@ -1,0 +1,21 @@
+<!-- From: file:/C:/Users/KuMa/AppData/Local/Temp/manifestMerge9164760524660219984.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.koolbao.huihex.test">
+
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="19"/>
+
+    <application>
+        <uses-library android:name="android.test.runner"/>
+        <!-- From: file:/C:/Users/KuMa/workspace/Huihex/build/bundles/debug/AndroidManifest.xml -->
+        <activity android:label="@string/app_name" android:name="com.koolbao.huihex.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- From: file:/C:/Users/KuMa/AppData/Local/Temp/manifestMerge9164760524660219984.xml -->
+        
+    </application>
+
+    <instrumentation android:functionalTest="false" android:handleProfiling="false" android:label="Tests for com.koolbao.huihex.test" android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.koolbao.huihex.test"/>
+</manifest>
